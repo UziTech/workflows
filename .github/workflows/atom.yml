@@ -32,7 +32,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Install Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
       - name: Install Dependencies
@@ -52,7 +52,7 @@ jobs:
       - name: Install Atom
         uses: UziTech/action-setup-atom@v1
       - name: Install Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
       - name: Install Dependencies
